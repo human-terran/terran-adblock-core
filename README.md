@@ -1,9 +1,10 @@
 
 ---
 
+This project is a dedicated hub for curated blocklists designed to reclaim your privacy, speed up your browsing, and stop intrusive data collection.
+
 ### License
 All lists in this repository are released under the **GNU General Public License v3.0 (GPL-3.0)**.
-
 You are free to use, modify, fork, and redistribute them.
 
 ### How to Subscribe
@@ -29,5 +30,4 @@ Start with **Terran Custom**. Switch to **Terran-PRO** if you want stronger bloc
 Found a bad domain or something missing? Open an Issue or Pull Request.
 
 ---
-
 **Focus: Real privacy without corporate bullshit.**
