@@ -1,0 +1,199 @@
+! =====================================================
+! Terran-PRO - Aggressive Privacy + Anti-Telemetry List
+! Version: 1.0
+! Last updated: 2026-05-23
+! Entries: ~700+
+! Description: Very aggressive blocklist. Kills ads, trackers, telemetry, fingerprinting, 
+!              upsells, and data collection from big tech and security software while 
+!              trying to keep core functionality intact.
+! Format: AdGuard / uBlock Origin compatible
+! License: GNU General Public License v3.0 (GPL-3.0)
+! =====================================================
+
+! --- ALLOW LIST (Exceptions) ---
+@@||charliemonroe.net^
+@@||login.norton.com^
+@@||stats.sender.net^
+@@||outlook.com^
+@@||office.com^
+@@||statsigapi.net^
+
+! =====================================================
+! APPLE SERVICES (non-essential telemetry & ads)
+! =====================================================
+||aag-prod.apple.com^
+||aag.apple.com^
+||aams-reseller.apple.com^
+||aams.apple.com^
+||abroadaccess.apple.com^
+||ad-analyser.apple.com^
+||ad-attribution.apple.com^
+||ad-privacy.apple.com^
+||ad-services.apple.com^
+||adattribution.apple.com^
+||adcd.apple.com^
+||adcrawl.apple.com^
+||ads-api.apple.com^
+||ads.apple.com^
+||adsattribution.apple.com^
+||affiliate.itunes.apple.com^
+||analytics.cdn-apple.com^
+||analytics.srv.apple.com^
+||apple-attributes.apple.com^
+||apple.com.112.2o7.net^
+||apple.com.2o7.net^
+||books-analytics-events.apple.com^
+||books-assets.apple.com^
+||iadsdk.apple.com^
+||iphonesubmissions.apple.com^
+||metrics.icloud.com^
+||metrics.mzstatic.com^
+||news-analytics.apple.com^
+||stocks-analytics-events.news.apple-dns.net^
+||weather-analytics-events.news.apple-dns.net^
+
+! =====================================================
+! AMAZON TELEMETRY & ADS
+! =====================================================
+||aax-us-east.amazon-adsystem.com^
+||aax.amazon-adsystem.com^
+||amazon-adsystem.com^
+||assoc-amazon.com^
+||fls-na.amazon.com^
+||mads.amazon.com^
+||pads.amazon-adsystem.com^
+||s.amazon-adsystem.com^
+||unagi-na.amazon.com^
+||unagi.amazon.com^
+||ws-na.amazon-adsystem.com^
+||advertising.amazon.com^
+||device-metrics-us.amazon.com^
+
+! =====================================================
+! MICROSOFT TELEMETRY
+! =====================================================
+||applicationinsights.azure.com^
+||arrayofbytes.com^
+||browser.events.data.microsoft.com^
+||c.msn.com^
+||client.wns.windows.com^
+||cy2.settings.data.microsoft.com.akadns.net^
+||diagnostics.support.microsoft.com^
+||feedback-search.windows.com^
+||licensing.mp.microsoft.com^
+||mobile.pipe.aria.microsoft.com^
+||msftconnecttest.com^
+||msftncsi.com^
+||oca.microsoft.com^
+||oca.telemetry.microsoft.com^
+||onecollector.cloud.microsoft.com^
+||self.events.data.microsoft.com^
+||settings-win.data.microsoft.com^
+||settings.data.microsoft.com^
+||sqm.telemetry.microsoft.com^
+||storeedgefd.dsx.mp.microsoft.com^
+||survey.watson.microsoft.com^
+||telecommand.telemetry.microsoft.com^
+||telemetry.microsoft.com^
+||vortex-win.data.microsoft.com^
+||vortex.data.microsoft.com^
+||watson.microsoft.com^
+||wdcp.microsoft.com^
+
+! =====================================================
+! GOOGLE / ANDROID TELEMETRY & ADS
+! =====================================================
+||ad.doubleclick.net^
+||ads.google.com^
+||adsense.google.com^
+||adservice.google.com^
+||app-measurement.com^
+||crashlytics.com^
+||google-analytics.com^
+||googleadservices.com^
+||googlesyndication.com^
+||googletagmanager.com^
+||googletagservices.com^
+||safebrowsing.google.com^
+
+! =====================================================
+! SAMSUNG, XIAOMI, OPPO, VIVO, HUAWEI & OTHER OEMs
+! =====================================================
+||analytics.samsung.com^
+||diagmon.samsung.com^
+||smetrics.samsung.com^
+||ad1.xiaomi.com^
+||data.mistat.xiaomi.com^
+||coloros.com^
+||log.oppo.com^
+||metrics.oppo.com^
+||log.vivo.com.cn^
+||vivoanalytics.com^
+||log.huawei.com^
+||hmma.baidu.com^
+
+! =====================================================
+! ANTIVIRUS / SECURITY SOFTWARE TELEMETRY & UPSELLS
+! =====================================================
+||analytics.norton.com^
+||ads.norton.com^
+||offers.norton.com^
+||upsell.norton.com^
+||telemetry.bitdefender.com^
+||analytics.bitdefender.com^
+||analytics.eset.com^
+||telemetry.kaspersky.com^
+||analytics.ff.avast.com^
+||svc.avast.com^
+
+! =====================================================
+! MAJOR AD NETWORKS & ANALYTICS
+! =====================================================
+||doubleclick.net^
+||googlesyndication.com^
+||amplitude.com^
+||mixpanel.com^
+||appsflyer.com^
+||segment.com^
+||hotjar.com^
+||taboola.com^
+||outbrain.com^
+||criteo.com^
+||pubmatic.com^
+||rubiconproject.com^
+||openx.net^
+||indexexchange.com^
+
+! =====================================================
+! FAKE / TYPO DOMAINS (Phishing protection)
+! =====================================================
+||faceboook.com^
+||facebok.com^
+||faceboookk.com^
+||faacebook.com^
+||fasebook.com^
+||instagrm.com^
+||instagramm.com^
+||tiktokk.com^
+||whatsap.com^
+||youtub.com^
+
+! =====================================================
+! GENERAL TRACKERS & LEFT OVER DOMAINS
+! =====================================================
+||facebook.net^
+||analytics.discord.com^
+||analytics.reddit.com^
+||analytics.pinterest.com^
+||heap.io^
+||newrelic.com^
+||sentry.io^
+||bugsnag.com^
+||optimizely.com^
+||qualtrics.com^
+||onetrust.com^
+||demdex.net^
+||krxd.net^
+||bluekai.com^
+||lotame.com^
+||liveramp.com^
