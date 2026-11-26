@@ -6,9 +6,9 @@ Curated, low-overhead DNS & browser blocklists built for real privacy without br
 
 | List | Rules | Purpose | Raw Subscribe URL |
 |---|---:|---|---|
-| **Terran Core QAT (`blocklist-core`)** | 18,382 | QAT-compressed consensus of **OISD Small** + **HaGeZi Multi LIGHT** + Terran custom & iOS telemetry rules (recommended, ~395 KB) | https://raw.githubusercontent.com/human-terran/terran-adblock-core/main/blocklist-core |
-| **Terran Standard (`blocklist-standard`)** | 415 | Lean custom list — keeps social platforms, Safe Browsing, and everyday apps 100% open | https://raw.githubusercontent.com/human-terran/terran-adblock-core/main/blocklist-standard |
-| **Terran-PRO (`blocklist-pro`)** | 241 | Strict custom telemetry, ad-SDK, and typo-phishing rules (no Safe Browsing / OS breakage) | https://raw.githubusercontent.com/human-terran/terran-adblock-core/main/blocklist-pro |
+| **Terran-Core** | 27,193 | QAT-compressed hybrid of **Terran Standard** + 2-of-3 consensus across **OISD Small**, **HaGeZi Multi LIGHT**, and **AdGuard Tracking Protection** (~600 KB, recommended) | https://raw.githubusercontent.com/human-terran/terran-adblock-core/main/Terran-Core |
+| **blocklist-standard** | 415 | Lean custom list — keeps social platforms, Safe Browsing, and everyday apps 100% open | https://raw.githubusercontent.com/human-terran/terran-adblock-core/main/blocklist-standard |
+| **blocklist-pro** | 241 | Strict custom telemetry, ad-SDK, and typo-phishing rules (no Safe Browsing / OS breakage) | https://raw.githubusercontent.com/human-terran/terran-adblock-core/main/blocklist-pro |
 
 ### How to Subscribe
 
@@ -17,8 +17,8 @@ Curated, low-overhead DNS & browser blocklists built for real privacy without br
 2. Add the desired Raw URL above
 3. Enable the list
 
-**uBlock Origin / AdGuard Extension:**
-1. Go to **My filters** → **Subscribe**
+**Terran Shield / uBlock Origin / AdGuard Extension:**
+1. Go to **Filters** -> **Custom Subscriptions** (or **My filters** -> **Subscribe**)
 2. Paste the Raw URL
 
 ### License
