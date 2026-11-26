@@ -3,19 +3,25 @@
 ! Author: human-terran
 ! License: MIT
 ! Homepage: https://github.com/human-terran/terran-adblock-core
-! Entries: 27834 (9 allow + 27825 block)
-! Version: 1.1
+! Entries: 27844 (15 allow + 27829 block)
+! Version: 1.2
 ! Last updated: 2026-11-26
 
 ! === Explicit Allowlist (Breakage Prevention) ===
+@@||abs.twimg.com^
 @@||charliemonroe.net^
 @@||intego.com^
 @@||login.norton.com^
 @@||office.com^
 @@||outlook.com^
+@@||pbs.twimg.com^
+@@||sapiensnovus.org^
+@@||sapiensos.org^
 @@||stats.sender.net^
 @@||statsigapi.net^
+@@||terrandesign.app^
 @@||twimg.com^
+@@||video.twimg.com^
 @@||vmpal.com^
 
 ! === Core Domains (QAT-Compressed + Surgical Social-50 Telemetry) ===
@@ -5770,6 +5776,7 @@
 ||canyonpizza.net^
 ||capablekettle.com^
 ||capaciousdrewreligion.com^
+||capital.fwh.is^
 ||capitalhospitals.org^
 ||capndr.com^
 ||capping.sirius.press^
@@ -6488,6 +6495,7 @@
 ||cloudconf.fengkongcloud.com^
 ||clouderrorreporting.googleapis.com^
 ||cloudfilt.com^
+||cloudflareinsights.com^
 ||cloudflrcdn.com^
 ||cloudfrant.net^
 ||cloudfront-labs.amazonaws.com^
@@ -8450,6 +8458,7 @@
 ||dozadpl.hit.gemius.pl^
 ||dp-sync.dotomi.com^
 ||dp1fzft1fdb84.cloudfront.net^
+||dpdrvz.cfd^
 ||dpfezxfkstyhu.online^
 ||dpizyarnfpcxw.site^
 ||dpjf9a2rbjbvp.cloudfront.net^
@@ -8628,6 +8637,7 @@
 ||dyn.varsity.co.uk^
 ||dynamic.rakuten.co.jp^
 ||dynamic.ziftsolutions.com^
+||dynamicvictory.fwh.is^
 ||dynamitedata.com^
 ||dynatrace.att.com^
 ||dynbanners.netlify.app^
@@ -13715,6 +13725,7 @@
 ||loading-delivery2.com^
 ||loading321.com^
 ||loadingscripts.com^
+||lobbywager.web1337.net^
 ||lobe.scv.public.sse-prod-eks-euw1.futureplc.engineering^
 ||loboclick.com^
 ||loc.cli2020.com^
@@ -21974,7 +21985,6 @@
 ||static.boffoadsapi.com^
 ||static.breatheads.com^
 ||static.clixportal.com^
-||static.cloudflareinsights.com^
 ||static.danarimedia.com^
 ||static.datadrives.ai^
 ||static.digidip.net^

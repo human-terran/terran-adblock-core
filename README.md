@@ -6,7 +6,7 @@ Curated, low-overhead DNS & browser blocklists built for real privacy without br
 
 | List | Rules | Purpose | Raw Subscribe URL |
 |---|---:|---|---|
-| **Terran-Core** | 27,834 | QAT-compressed hybrid of **Terran Standard** + 2-of-3 consensus across **OISD Small**, **HaGeZi Multi LIGHT**, and **AdGuard Tracking Protection** + surgical top-50 social & iOS telemetry blocking (~619 KB, recommended) | https://raw.githubusercontent.com/human-terran/terran-adblock-core/main/Terran-Core |
+| **Terran-Core** | 27,844 | QAT-compressed hybrid of **Terran Standard** + 2-of-3 consensus across **OISD Small**, **HaGeZi Multi LIGHT**, and **AdGuard Tracking Protection** + surgical top-50 social & iOS telemetry blocking (~620 KB, recommended) | https://raw.githubusercontent.com/human-terran/terran-adblock-core/main/Terran-Core |
 | **blocklist-standard** | 415 | Lean custom list — keeps social platforms, Safe Browsing, and everyday apps 100% open | https://raw.githubusercontent.com/human-terran/terran-adblock-core/main/blocklist-standard |
 | **blocklist-pro** | 241 | Strict custom telemetry, ad-SDK, and typo-phishing rules (no Safe Browsing / OS breakage) | https://raw.githubusercontent.com/human-terran/terran-adblock-core/main/blocklist-pro |
 
