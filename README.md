@@ -1,11 +1,14 @@
+# Terran Adblock Core
 
----
+Curated, low-overhead DNS & browser blocklists built for real privacy without breaking everyday apps, logins, or websites.
 
-This project is a dedicated hub for curated blocklists designed to reclaim your privacy, speed up your browsing, and stop intrusive data collection.
+### Subscribe Links (Raw URLs)
 
-### License
-All lists in this repository are released under the **GNU General Public License v3.0 (GPL-3.0)**.
-You are free to use, modify, fork, and redistribute them.
+| List | Rules | Purpose | Raw Subscribe URL |
+|---|---:|---|---|
+| **Terran Core QAT (`blocklist-core`)** | 18,382 | QAT-compressed consensus of **OISD Small** + **HaGeZi Multi LIGHT** + Terran custom & iOS telemetry rules (recommended, ~395 KB) | https://raw.githubusercontent.com/human-terran/terran-adblock-core/main/blocklist-core |
+| **Terran Standard (`blocklist-standard`)** | 415 | Lean custom list — keeps social platforms, Safe Browsing, and everyday apps 100% open | https://raw.githubusercontent.com/human-terran/terran-adblock-core/main/blocklist-standard |
+| **Terran-PRO (`blocklist-pro`)** | 241 | Strict custom telemetry, ad-SDK, and typo-phishing rules (no Safe Browsing / OS breakage) | https://raw.githubusercontent.com/human-terran/terran-adblock-core/main/blocklist-pro |
 
 ### How to Subscribe
 
@@ -18,16 +21,9 @@ You are free to use, modify, fork, and redistribute them.
 1. Go to **My filters** → **Subscribe**
 2. Paste the Raw URL
 
-**Recommendation:**  
-Start with **Terran Custom**. Switch to **Terran-PRO** if you want stronger blocking.
-
-### Future Plans
-- More specialized lists (Social Media, Streaming, Gaming, etc.)
-- Regular updates and community contributions
-- Possible "Ultra" or region-specific variants
-
-### Contributing
-Found a bad domain or something missing? Open an Issue or Pull Request.
+### License
+All lists in this repository are released under the **GNU General Public License v3.0 (GPL-3.0)**.
+You are free to use, modify, fork, and redistribute them.
 
 ---
 **Focus: Real privacy without corporate bullshit.**
