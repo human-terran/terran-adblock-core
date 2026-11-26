@@ -1,12 +1,11 @@
 ! =====================================================
-! Terran-PRO - Aggressive Privacy + Anti-Telemetry List
-! Version: 1.0
-! Last updated: 2026-05-23
-! Entries: ~700+
-! Description: Very aggressive blocklist. Kills ads, trackers, telemetry, fingerprinting, 
-!              upsells, and data collection from big tech and security software while 
-!              trying to keep core functionality intact.
-! Format: AdGuard / uBlock Origin compatible
+! Title: Terran-PRO - Strict Privacy + Anti-Telemetry List
+! Version: 2.0
+! Last updated: 2026-11-26
+! Entries: 241
+! Description: Aggressive privacy, ad, fingerprinting, and telemetry blocklist.
+!              Hardened to keep Safe Browsing, OS connectivity, logins, and social apps working.
+! Format: AdGuard DNS / AdGuard / uBlock Origin compatible
 ! License: GNU General Public License v3.0 (GPL-3.0)
 ! =====================================================
 
@@ -17,6 +16,12 @@
 @@||outlook.com^
 @@||office.com^
 @@||statsigapi.net^
+@@||twimg.com^
+@@||vmpal.com^
+@@||intego.com^
+@@||sapiensnovus.org^$important
+@@||sapiensos.org^$important
+@@||terrandesign.app^$important
 
 ! =====================================================
 ! APPLE SERVICES (non-essential telemetry & ads)
@@ -43,7 +48,6 @@
 ||apple.com.112.2o7.net^
 ||apple.com.2o7.net^
 ||books-analytics-events.apple.com^
-||books-assets.apple.com^
 ||iadsdk.apple.com^
 ||iphonesubmissions.apple.com^
 ||metrics.icloud.com^
@@ -76,14 +80,10 @@
 ||arrayofbytes.com^
 ||browser.events.data.microsoft.com^
 ||c.msn.com^
-||client.wns.windows.com^
 ||cy2.settings.data.microsoft.com.akadns.net^
 ||diagnostics.support.microsoft.com^
 ||feedback-search.windows.com^
-||licensing.mp.microsoft.com^
 ||mobile.pipe.aria.microsoft.com^
-||msftconnecttest.com^
-||msftncsi.com^
 ||oca.microsoft.com^
 ||oca.telemetry.microsoft.com^
 ||onecollector.cloud.microsoft.com^
@@ -114,7 +114,6 @@
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
-||safebrowsing.google.com^
 
 ! =====================================================
 ! SAMSUNG, XIAOMI, OPPO, VIVO, HUAWEI & OTHER OEMs
@@ -124,7 +123,6 @@
 ||smetrics.samsung.com^
 ||ad1.xiaomi.com^
 ||data.mistat.xiaomi.com^
-||coloros.com^
 ||log.oppo.com^
 ||metrics.oppo.com^
 ||log.vivo.com.cn^
@@ -150,7 +148,6 @@
 ! MAJOR AD NETWORKS & ANALYTICS
 ! =====================================================
 ||doubleclick.net^
-||googlesyndication.com^
 ||amplitude.com^
 ||mixpanel.com^
 ||appsflyer.com^
@@ -181,7 +178,6 @@
 ! =====================================================
 ! GENERAL TRACKERS & LEFT OVER DOMAINS
 ! =====================================================
-||facebook.net^
 ||analytics.discord.com^
 ||analytics.reddit.com^
 ||analytics.pinterest.com^
@@ -191,9 +187,115 @@
 ||bugsnag.com^
 ||optimizely.com^
 ||qualtrics.com^
-||onetrust.com^
 ||demdex.net^
 ||krxd.net^
 ||bluekai.com^
 ||lotame.com^
 ||liveramp.com^
+
+! =====================================================
+! iOS APP PRIVACY REPORT TRACKERS (2026-11-26)
+! =====================================================
+||hightouch-events.com^
+||braze.com^
+||braze.eu^
+||appsflyersdk.com^
+||api.bitdrift.io^
+||tags.tiqcdn.com^
+||firebaselogging-pa.googleapis.com^
+||crashlyticsreports-pa.googleapis.com^
+||stocks-analytics-events.apple.com^
+||api.adaptytech.com^
+
+! =====================================================
+! SOCIAL AD & ANALYTICS SUBDOMAINS (PLATFORMS STAY ACCESSIBLE)
+! =====================================================
+||ads-api.x.com^
+||ads-api.twitter.com^
+||ads.twitter.com^
+||analytics.twitter.com^
+||static.ads-twitter.com^
+||events.redditmedia.com^
+||ct.pinterest.com^
+||tr.snapchat.com^
+||analytics.snapchat.com^
+||log.tiktokv.com^
+||mon.va.tiktokv.com^
+||ads.viber.com^
+||ads.viber.net^
+||analytics.viber.com^
+||stats.viber.com^
+||crashlytics.viber.com^
+||viberads.com^
+
+! =====================================================
+! ADDITIONAL AD NETWORKS, ATTRIBUTION & APP TELEMETRY
+! =====================================================
+||adform.net^
+||adnxs.com^
+||appnexus.com^
+||alexametrics.com^
+||api2.branch.io^
+||awstrack.me^
+||bidswitch.net^
+||casalemedia.com^
+||cdn-amplitude.com^
+||chartbeat.com^
+||chartboost.com^
+||comscoreresearch.com^
+||contextweb.com^
+||conversantmedia.com^
+||customeriomail.com^
+||datadoghq-browser-agent.com^
+||dca-telemetry.adobe.com^
+||everesttech.net^
+||flashtalking.com^
+||flurry.com^
+||inmobi.com^
+||intercom-mail.com^
+||ironsrc.com^
+||kargo.com^
+||logx.optimizely.com^
+||loopme.com^
+||mathtag.com^
+||media.net^
+||mgid.com^
+||mintegral.com^
+||mxpnl.com^
+||nr-data.net^
+||perimeterx.net^
+||px.ads.linkedin.com^
+||quantserve.com^
+||quantummetric.com^
+||revcontent.com^
+||rlcdn.com^
+||scorecardresearch.com^
+||segment.io^
+||sharethrough.com^
+||smartadserver.com^
+||snap.licdn.com^
+||sonobi.com^
+||sovrn.com^
+||teads.tv^
+||tealium.com^
+||unityads.unity3d.com^
+||uxcam.com^
+||view.atdmt.com^
+||logs.bitdefender.com^
+||bdx.bitdefender.com^
+||telemetry.bitdefender.net^
+||telemetry.malwarebytes.com^
+||analytics.malwarebytes.com^
+||telemetry.norton.com^
+||telemetry.surfshark.com^
+||analytics.surfshark.com^
+||logs.surfshark.com^
+||nordanalytics.com^
+||analytics.bancatransilvania.ro^
+||analytics.orange.com^
+||gmai1.com^
+||gmaill.com^
+||gmial.com^
+||micros0ft.com^
+||rnicrosoft.com^
+||outlok.com^
