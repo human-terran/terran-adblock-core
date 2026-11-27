@@ -1,11 +1,11 @@
-! Title: Terran-Core
+! Title: Terran Shield Core
 ! Description: Compact ultra-efficient QAT hybrid filter (Terran Standard + OISD Small + HaGeZi Multi LIGHT + AdGuard Tracking Optimized + 11 native OS/vendor telemetry lists + Top-50 Social & Top-160 Everyday Company surgical telemetry, zero breakage).
 ! Author: human-terran
 ! License: MIT
 ! Homepage: https://github.com/human-terran/terran-adblock-core
 ! Entries: 30298 (15 allow + 30283 block)
 ! Version: 1.3
-! Last updated: 2026-11-26
+! Last updated: 2026-11-27
 
 ! === Explicit Allowlist (Breakage Prevention) ===
 @@||abs.twimg.com^

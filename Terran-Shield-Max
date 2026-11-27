@@ -1,11 +1,11 @@
-! Title: Terran-Core-Max
-! Description: All-in-one single Safari Content Blocker filter (Terran-Core v1.3 + AdGuard Safari Ads/Mobile/Social/Cookies/Popups/Annoyances + Phishing + Badware + OISD/HaGeZi confirmed malware/trackers) strictly compressed under 150,000 WebKit rules.
+! Title: Terran Shield Max
+! Description: All-in-one single Safari Content Blocker filter (Terran-Shield-Core v1.3 + AdGuard Safari Ads/Mobile/Social/Cookies/Popups/Annoyances + Phishing + Badware + OISD/HaGeZi confirmed malware/trackers) strictly compressed under 150,000 WebKit rules.
 ! Author: human-terran
 ! License: MIT
 ! Homepage: https://github.com/human-terran/terran-adblock-core
 ! Entries: 137,743 lines (132,021 compiled Safari WebKit rules; limit 150,000)
 ! Version: 1.0
-! Last updated: 2026-11-26
+! Last updated: 2026-11-27
 
 ! === Explicit Allowlist (Breakage Prevention) ===
 @@||abs.twimg.com^
